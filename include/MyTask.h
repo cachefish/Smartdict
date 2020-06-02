@@ -63,7 +63,7 @@ private:
     }
 
 private:
-    std::string queryWord_; // 用户的查询词
+    std::string  queryWord_; // 用户的查询词
     struct sockaddr_in addr_;// 用于保存用户端地址和端口号
     int peerfd_;
 
